@@ -1,9 +1,14 @@
 # Node.js modules
 node_modules/
+**/node_modules
 
 # Logs
 logs/
 *.log
+nohup.out
+
+# Build output
+**/dist
 
 # 환경설정 파일
 .env
